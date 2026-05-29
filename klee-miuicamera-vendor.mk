@@ -64,6 +64,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/164_fc400.png:$(TARGET_COPY_OUT_ODM)/etc/camera/164_fc400.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/165_c_50d.png:$(TARGET_COPY_OUT_ODM)/etc/camera/165_c_50d.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/166_revert.png:$(TARGET_COPY_OUT_ODM)/etc/camera/166_revert.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/72.png:$(TARGET_COPY_OUT_ODM)/etc/camera/72.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/73.png:$(TARGET_COPY_OUT_ODM)/etc/camera/73.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/buling_1s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_1s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/buling_2s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_2s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/buling_3s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_3s.png \
