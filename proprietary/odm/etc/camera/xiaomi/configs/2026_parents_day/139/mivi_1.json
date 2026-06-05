@@ -1,0 +1,378 @@
+{
+  "version": 1,
+  "metadata": {
+    "name": "@wm_2026_graduation_season_139",
+    "id": "139",
+    "description": "2026_graduation_season_139",
+    "gainmap_modify_version": 0
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "vertical",
+          "gravity": "center",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "background": "@background=background_1",
+          "margin_left": "0.0dp",
+          "margin_top": "0.0dp",
+          "degree": 0,
+          "alpha_ratio": 1,
+          "setting_optional_type": "",
+          "gainmap_value": -1,
+          "childViews": [
+            {
+              "type": "Layout",
+              "id": "top_padding",
+              "orientation": "horizontal",
+              "gravity": "left",
+              "layout_width": "match_parent",
+              "layout_height": "30dp",
+              "background": "",
+              "margin_left": "0.0dp",
+              "margin_top": "0.0dp",
+              "degree": 0,
+              "alpha_ratio": 1,
+              "setting_optional_type": "",
+              "gainmap_value": -1,
+              "childViews": []
+            },
+            {
+              "type": "Layout",
+              "id": "src_layout",
+              "orientation": "horizontal",
+              "gravity": "center",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "background": "",
+              "margin_left": "0.0dp",
+              "margin_top": "0.0dp",
+              "degree": 0,
+              "alpha_ratio": 1,
+              "setting_optional_type": "",
+              "gainmap_value": -1,
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "left_padding",
+                  "orientation": "horizontal",
+                  "gravity": "left",
+                  "layout_width": "30dp",
+                  "layout_height": "match_parent",
+                  "background": "",
+                  "margin_left": "0.0dp",
+                  "margin_top": "0.0dp",
+                  "degree": 0,
+                  "alpha_ratio": 1,
+                  "setting_optional_type": "",
+                  "gainmap_value": -1,
+                  "childViews": []
+                },
+                {
+                  "type": "ImageView",
+                  "id": "src_image_view",
+                  "background": "",
+                  "margin_left": "0.0dp",
+                  "margin_top": "0.0dp",
+                  "alpha_ratio": 1,
+                  "setting_optional_type": "",
+                  "gainmap_value": -1,
+                  "layout_gravity": "left",
+                  "display_width": "wrap_content",
+                  "display_height": "0dp",
+                  "path": "",
+                  "scale": 1
+                },
+                {
+                  "type": "Layout",
+                  "id": "right_padding",
+                  "orientation": "horizontal",
+                  "gravity": "left",
+                  "layout_width": "30dp",
+                  "layout_height": "match_parent",
+                  "background": "",
+                  "margin_left": "0.0dp",
+                  "margin_top": "0.0dp",
+                  "degree": 0,
+                  "alpha_ratio": 1,
+                  "setting_optional_type": "",
+                  "gainmap_value": -1,
+                  "childViews": []
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "bottom_layout",
+              "orientation": "none",
+              "gravity": "center_vertical",
+              "layout_width": "match_parent",
+              "layout_height": "172dp",
+              "background": "",
+              "margin_left": "0.0dp",
+              "margin_top": "0.0dp",
+              "degree": 0,
+              "alpha_ratio": 1,
+              "setting_optional_type": "",
+              "gainmap_value": -1,
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "left_bottom_group",
+                  "orientation": "vertical",
+                  "gravity": "left|center_vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "background": "",
+                  "margin_left": "50.0dp",
+                  "margin_top": "0.0dp",
+                  "degree": 0,
+                  "alpha_ratio": 1,
+                  "setting_optional_type": "",
+                  "gainmap_value": -1,
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "padding_1",
+                      "orientation": "horizontal",
+                      "gravity": "left",
+                      "layout_width": "match_parent",
+                      "layout_height": "4dp",
+                      "background": "",
+                      "margin_left": "0.0dp",
+                      "margin_top": "0.0dp",
+                      "degree": 0,
+                      "alpha_ratio": 1,
+                      "setting_optional_type": "",
+                      "gainmap_value": -1,
+                      "childViews": []
+                    },
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "gravity": "left|center_vertical",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "background": "",
+                      "margin_left": "0.0dp",
+                      "margin_top": "0.0dp",
+                      "degree": 0,
+                      "alpha_ratio": 1,
+                      "setting_optional_type": "",
+                      "gainmap_value": -1,
+                      "childViews": [
+                        {
+                          "type": "ImageView",
+                          "id": "logo",
+                          "background": "",
+                          "margin_left": "0.0dp",
+                          "margin_top": "0.0dp",
+                          "alpha_ratio": 1,
+                          "setting_optional_type": "",
+                          "gainmap_value": -1,
+                          "layout_gravity": "center_vertical",
+                          "display_width": "0dp",
+                          "display_height": "36dp",
+                          "path": "pathType=fill;path=${logo};foreground=2",
+                          "scale": 1
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model",
+                          "background": "",
+                          "margin_left": "0.0dp",
+                          "margin_top": "0.0dp",
+                          "alpha_ratio": 1,
+                          "setting_optional_type": "",
+                          "gainmap_value": -1,
+                          "layout_gravity": "center_vertical",
+                          "text": " X8 ",
+                          "font_ref": "f1",
+                          "scale": 1
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model_versionName",
+                          "background": "",
+                          "margin_left": "0.0dp",
+                          "margin_top": "0.0dp",
+                          "alpha_ratio": 1,
+                          "setting_optional_type": "",
+                          "gainmap_value": -1,
+                          "layout_gravity": "center_vertical",
+                          "text": "Pro",
+                          "font_ref": "f2",
+                          "scale": 1,
+                          "rect_params": {
+                            "rect_text_width_gap": 8,
+                            "rect_text_height_gap": 0,
+                            "rect_line_width": 2,
+                            "rect_radius": [
+                              7.2,
+                              7.2,
+                              7.2,
+                              7.2,
+                              7.2,
+                              7.2,
+                              7.2,
+                              7.2
+                            ],
+                            "rect_line_color": "@foreground=1",
+                            "rect_fill_color": "",
+                            "rect_width": "wrap_content",
+                            "rect_height": "28dp"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Layout",
+                      "id": "padding_2",
+                      "orientation": "horizontal",
+                      "gravity": "left",
+                      "layout_width": "match_parent",
+                      "layout_height": "4dp",
+                      "background": "",
+                      "margin_left": "0.0dp",
+                      "margin_top": "0.0dp",
+                      "degree": 0,
+                      "alpha_ratio": 1,
+                      "setting_optional_type": "",
+                      "gainmap_value": -1,
+                      "childViews": []
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "mix_text_1",
+                      "background": "",
+                      "margin_left": "0.0dp",
+                      "margin_top": "7.0dp",
+                      "alpha_ratio": 1,
+                      "setting_optional_type": "",
+                      "gainmap_value": -1,
+                      "layout_gravity": "left",
+                      "text": "@time=yyyy.MM.dd HH:mm",
+                      "font_ref": "f3",
+                      "scale": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "ImageView",
+                  "id": "right_bottom_img",
+                  "background": "",
+                  "margin_left": "0.0dp",
+                  "margin_top": "0.0dp",
+                  "alpha_ratio": 1,
+                  "setting_optional_type": "",
+                  "gainmap_value": -1,
+                  "layout_gravity": "right",
+                  "display_width": "0dp",
+                  "display_height": "172dp",
+                  "path": "pathType=select;path=img_right;foreground=3",
+                  "scale": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "fonts": {
+      "f1": {
+        "size": 30,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 501",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "shadow": [
+          "0f",
+          "0f",
+          "0f",
+          "#00000000"
+        ]
+      },
+      "f2": {
+        "size": 20,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "textAlign": "left",
+        "letterSpacing": 0.06,
+        "shadow": [
+          "0f",
+          "0f",
+          "0f",
+          "#00000000"
+        ]
+      },
+      "f3": {
+        "size": 24,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "textAlign": "left",
+        "letterSpacing": 0.045,
+        "shadow": [
+          "0f",
+          "0f",
+          "0f",
+          "#00000000"
+        ]
+      }
+    },
+    "background": [
+      {
+        "name": "background_1",
+        "description": "",
+        "value": "@color=#FFFFFFFF",
+        "foreground": [
+          "#FF000000",
+          "#BF000000",
+          "black",
+          "1"
+        ]
+      },
+      {
+        "name": "background_2",
+        "description": "",
+        "value": "@color=#FFFFFFFF",
+        "foreground": [
+          "#FF000000",
+          "#BF000000",
+          "black",
+          "2"
+        ]
+      },
+      {
+        "name": "background_3",
+        "description": "",
+        "value": "@color=#FFFFFFFF",
+        "foreground": [
+          "#FF000000",
+          "#BF000000",
+          "black",
+          "3"
+        ]
+      },
+      {
+        "name": "background_4",
+        "description": "",
+        "value": "@color=#FFFFFFFF",
+        "foreground": [
+          "#FF000000",
+          "#BF000000",
+          "black",
+          "4"
+        ]
+      }
+    ]
+  }
+}
