@@ -548,3 +548,41 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
+
+cc_prebuilt_binary {
+    name: "hypsys_vendor",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hypsys_vendor",
+            ],
+            shared_libs: [
+                "libc",
+                "libssl",
+                "vendor.xiaomi.hardware.mtkblackbox-V3-ndk",
+                "libmisight",
+                "libcutils",
+                "libcrypto",
+                "libz",
+                "libbase",
+                "liblog",
+                "libutils",
+                "libbinder_ndk",
+                "libjsoncpp",
+                "vendor.xiaomi.hardware.misys.core-V1-ndk",
+                "vendor.xiaomi.hardware.misys.common-V3-ndk",
+                "xiaomi.system.hypsys.common-V1-ndk",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}

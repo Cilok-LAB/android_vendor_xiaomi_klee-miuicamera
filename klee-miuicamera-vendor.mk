@@ -296,7 +296,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.common-V2-java \
     vendor.xiaomi.hardware.misys.common.xml \
     vendor.xiaomi.hardware.misys.core.xml \
-    vendor.xiaomi.hardware.misys.core-service
+    vendor.xiaomi.hardware.misys.core-service \
+    hypsys_vendor
 
 PRODUCT_BOOT_JARS += \
     mediatek-framework
