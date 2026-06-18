@@ -276,6 +276,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.common-V3-ndk \
+    vendor.xiaomi.hardware.mtkblackbox-V3-ndk \
     libmisys_jni.xiaomi \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@3.0 \
