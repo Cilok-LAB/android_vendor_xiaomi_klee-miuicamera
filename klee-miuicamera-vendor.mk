@@ -298,6 +298,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys-V4.0-java \
     vendor.xiaomi.hardware.misys.V3_0 \
     vendor.xiaomi.hardware.misys.common-V2-java \
+    manifest_mtkblackbox.xml \
     vendor.xiaomi.hardware.misys.common.xml \
     vendor.xiaomi.hardware.misys.core.xml \
     vendor.xiaomi.hardware.misys.core-service \
