@@ -268,6 +268,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_wuhan.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_wuhan.webp \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_zhang_jia_jie.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_zhang_jia_jie.webp \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/xiaomi/watermark/noise_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/noise_logo.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/system_ext/etc/init/hypsys_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hypsys_system.rc \
     vendor/xiaomi/klee-miuicamera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
     vendor/xiaomi/klee-miuicamera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
     vendor/xiaomi/klee-miuicamera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml \
@@ -278,7 +279,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.common-V3-ndk \
     vendor.xiaomi.hardware.mtkblackbox-V3-ndk \
-    xiaomi.system.hypsys.common-V1-ndk \
     libmisys_jni.xiaomi \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@3.0 \
@@ -290,6 +290,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.0-system_ext \
     vendor.xiaomi.hardware.misys.common-V3-ndk-system_ext \
     vendor.xiaomi.hardware.misys.core-V1-ndk-system_ext \
+    xiaomi.system.hypsys.common-V1-ndk-system_ext \
     MiuiCamera \
     mediatek-framework \
     vendor.xiaomi.hardware.misys-V1.0-java \
@@ -300,7 +301,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.common.xml \
     vendor.xiaomi.hardware.misys.core.xml \
     vendor.xiaomi.hardware.misys.core-service \
-    hypsys_vendor
+    hypsys_vendor \
+    hypsys_system
 
 PRODUCT_BOOT_JARS += \
     mediatek-framework
