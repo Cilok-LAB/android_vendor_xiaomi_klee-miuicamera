@@ -280,12 +280,14 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.common-V3-ndk \
     vendor.xiaomi.hardware.mtkblackbox-V3-ndk \
     libmisys_jni.xiaomi \
+    libmqsas \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@3.0 \
     libcamera_algoup_jni.xiaomi \
     libcamera_ispinterface_jni.xiaomi \
     libcamera_mianode_jni.xiaomi \
     libmtkisp_metadata_sys \
+    miui.mqsas.native-cpp \
     vendor.mediatek.hardware.camera.isphal-V1-ndk-system_ext \
     vendor.mediatek.hardware.camera.isphal@1.0-system_ext \
     vendor.xiaomi.hardware.misys.common-V3-ndk-system_ext \
