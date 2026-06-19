@@ -272,6 +272,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/klee-miuicamera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
     vendor/xiaomi/klee-miuicamera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml \
     vendor/xiaomi/klee-miuicamera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
+    vendor/xiaomi/klee-miuicamera/proprietary/vendor/etc/init/hypsys_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hypsys_vendor.rc \
     vendor/xiaomi/klee-miuicamera/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys.core-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys.core-service.rc
 
 PRODUCT_PACKAGES += \
