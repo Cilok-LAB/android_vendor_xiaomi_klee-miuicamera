@@ -91,9 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/heart_5s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/heart_5s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/heart_6s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/heart_6s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/thumbup_3s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/thumbup_3s.png \
-    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/CFR_para_UW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW.bin \
-    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/no_uw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/no_uw.bin \
-    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/uw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/uw.bin \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/102_SummerDay.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/102_SummerDay.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/103_Fantasy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/103_Fantasy.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/104_Meet.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/104_Meet.png \
@@ -283,8 +280,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mtkblackbox-V3-ndk \
     libmisys_jni.xiaomi \
     libmqsas \
-    vendor.xiaomi.hardware.aidlbgservice-V1-ndk \
-    vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@3.0 \
     libcamera_algoup_jni.xiaomi \
@@ -294,6 +289,8 @@ PRODUCT_PACKAGES += \
     miui.mqsas.native-cpp \
     vendor.mediatek.hardware.camera.isphal-V1-ndk-system_ext \
     vendor.mediatek.hardware.camera.isphal@1.0-system_ext \
+    vendor.xiaomi.hardware.aidlbgservice-V1-ndk-system_ext \
+    vendor.xiaomi.hardware.bgservice@1.0-system_ext \
     vendor.xiaomi.hardware.misys.common-V3-ndk-system_ext \
     vendor.xiaomi.hardware.misys.core-V1-ndk-system_ext \
     MiuiCamera \
