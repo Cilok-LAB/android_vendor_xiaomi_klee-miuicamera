@@ -606,7 +606,7 @@ dex_import {
     ],
 }
 
-dex_import {
+java_import {
     name: "vendor.xiaomi.hardware.aidlbgservice-V1-java",
     owner: "xiaomi",
     jars: [
