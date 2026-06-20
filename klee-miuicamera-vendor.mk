@@ -283,6 +283,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mtkblackbox-V3-ndk \
     libmisys_jni.xiaomi \
     libmqsas \
+    vendor.xiaomi.hardware.aidlbgservice-V1-ndk \
+    vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@3.0 \
     libcamera_algoup_jni.xiaomi \
@@ -296,6 +298,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.core-V1-ndk-system_ext \
     MiuiCamera \
     mediatek-framework \
+    vendor.xiaomi.hardware.aidlbgservice-V1-java \
+    vendor.xiaomi.hardware.bgservice-V1.0-java \
     vendor.xiaomi.hardware.misys-V1.0-java \
     vendor.xiaomi.hardware.misys-V2.0-java \
     vendor.xiaomi.hardware.misys-V4.0-java \
