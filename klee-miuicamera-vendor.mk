@@ -91,6 +91,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/heart_5s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/heart_5s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/heart_6s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/heart_6s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/thumbup_3s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/thumbup_3s.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/CFR_para_UW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW.bin \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/no_uw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/no_uw.bin \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/uw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/uw.bin \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/102_SummerDay.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/102_SummerDay.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/103_Fantasy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/103_Fantasy.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/104_Meet.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/104_Meet.png \
