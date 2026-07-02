@@ -294,6 +294,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.common-V3-ndk-system_ext \
     vendor.xiaomi.hardware.misys.core-V1-ndk-system_ext \
     MiuiCamera \
+    mediatek-framework \
     vendor.xiaomi.hardware.aidlbgservice-V1-java \
     vendor.xiaomi.hardware.bgservice-V1.0-java \
     vendor.xiaomi.hardware.misys-V1.0-java \
@@ -306,3 +307,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.core.xml \
     vendor.xiaomi.hardware.misys.core-service \
     hypsys_vendor
+
+PRODUCT_BOOT_JARS += \
+    mediatek-framework
